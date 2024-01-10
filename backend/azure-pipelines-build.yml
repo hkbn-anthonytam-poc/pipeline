@@ -3,6 +3,7 @@ resources:
   - repository: MyGitHubRepo # The name used to reference this repository in the checkout step
     type: github
     endpoint: hkbn-anthonytam-poc
+    name: hkbn-anthonytam-poc/system-svc
 
 pool:
   name: UK Agent Pools
