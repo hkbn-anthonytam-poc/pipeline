@@ -7,5 +7,6 @@ jobs:
   - job: Foo
     steps:
     - script: dir
+    - script: echo $(IMAGE_NAME)
       condition: always()
 
