@@ -1,0 +1,11 @@
+
+pool:
+  name: UK Agent Pools
+  #vmImage: ubuntu-latest
+
+jobs:
+  - job: Foo
+    steps:
+    - script: dir
+      condition: always()
+
