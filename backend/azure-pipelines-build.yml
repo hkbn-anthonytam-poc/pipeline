@@ -4,6 +4,10 @@ pool:
   #vmImage: ubuntu-latest
 
 jobs:
+  - job: BuildDocker
+    steps:
+      - script: dir
+      
   - job: Foo
     steps:
     - script: dir
