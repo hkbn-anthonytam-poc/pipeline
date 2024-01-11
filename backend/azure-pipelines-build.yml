@@ -4,6 +4,11 @@ resources:
     type: github
     endpoint: hkbn-anthonytam-poc
     name: hkbn-anthonytam-poc/system-svc
+    ref: main
+    trigger:
+      branches:
+        include:
+        - main
 
 pool:
   name: UK Agent Pools
